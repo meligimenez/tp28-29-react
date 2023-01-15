@@ -1,5 +1,9 @@
 import React from 'react'
 import mandalorian from '../assets/images/mandalorian.jpg'
+import { BsFilm } from "react-icons/bs";
+import { BsPerson } from "react-icons/bs";
+import { BsAward } from "react-icons/bs";
+
 
 export const ContentRowTop = () => {
   return (
@@ -19,7 +23,7 @@ export const ContentRowTop = () => {
                   <div className="h5 mb-0 font-weight-bold text-gray-800">21</div>
                 </div>
                 <div className="col-auto">
-                  <i className="fas fa-film fa-2x text-gray-300"></i>
+                  <BsFilm />
                 </div>
               </div>
             </div>
@@ -34,8 +38,8 @@ export const ContentRowTop = () => {
                   <div className="text-xs font-weight-bold text-success text-uppercase mb-1"> Total awards</div>
                   <div className="h5 mb-0 font-weight-bold text-gray-800">79</div>
                 </div>
-                <div className="col-auto">
-                  <i className="fas fa-award fa-2x text-gray-300"></i>
+                <div className="col-auto" >
+                  <BsAward />
                 </div>
               </div>
             </div>
@@ -52,7 +56,7 @@ export const ContentRowTop = () => {
                   <div className="h5 mb-0 font-weight-bold text-gray-800">49</div>
                 </div>
                 <div className="col-auto">
-                  <i className="fas fa-user fa-2x text-gray-300"></i>
+                  <BsPerson />
                 </div>
               </div>
             </div>

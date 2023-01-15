@@ -1,5 +1,10 @@
 import React from 'react'
 import logoDH from '../assets/images/logo-DH.png'
+import { BiTable } from "react-icons/bi";
+import { AiOutlineAreaChart } from "react-icons/ai";
+import { AiTwotoneFolder } from "react-icons/ai";
+import { BiTachometer } from "react-icons/bi";
+
 
 export const SideBar = () => {
   return (
@@ -18,7 +23,7 @@ export const SideBar = () => {
 
       <li className="nav-item active">
         <a className="nav-link" href="/">
-          <i className="fas fa-fw fa-tachometer-alt"></i>
+          <BiTachometer />
           <span>Dashboard - DH movies</span></a>
       </li>
 
@@ -31,7 +36,7 @@ export const SideBar = () => {
 
       <li className="nav-item">
         <a className="nav-link collapsed" href="/">
-          <i className="fas fa-fw fa-folder"></i>
+          <AiTwotoneFolder />
           <span>Pages</span>
         </a>
       </li>
@@ -39,14 +44,14 @@ export const SideBar = () => {
 
       <li className="nav-item">
         <a className="nav-link" href="/">
-          <i className="fas fa-fw fa-chart-area"></i>
+          <AiOutlineAreaChart />
           <span>Charts</span></a>
       </li>
 
 
       <li className="nav-item">
         <a className="nav-link" href="/">
-          <i className="fas fa-fw fa-table"></i>
+          <BiTable />
           <span>Tables</span></a>
       </li>
 
